@@ -1,0 +1,31 @@
+{
+  "name": "h7-bak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.34"
+  },
+  "jspm": {
+    "dependencies": {
+      "jquery": "npm:jquery@^2.2.4",
+      "react": "npm:react@^15.1.0",
+      "react-dom": "npm:react-dom@^15.1.0",
+      "react-router": "npm:react-router@^2.4.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "dependencies": {
+    "react-router": "^2.4.1",
+    "semantic-ui": "^2.1.8"
+  }
+}
